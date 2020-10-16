@@ -1,0 +1,98 @@
+body {
+  background-color: #eee;
+  overflow:scroll;
+}
+
+.main {
+  align-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  font-size: 48px;
+  font-style: italic;
+  text-align: center;
+  background-color: #2fa4dd;
+}
+
+.header h1 {
+  margin: 0px;
+  padding: 20px;
+}
+
+.page-heading {
+  font-size: 48px;
+}
+
+.site-links {
+  padding-top: 20px;
+}
+
+.photo-gallery li {
+  width: 250px;
+  display: inline-block;
+  padding: 20px;
+}
+
+.photo-gallery .photo-image {
+  width: 250px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) {
+  .site-links a {
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+  }
+
+  .photo-gallery {
+    padding-left: 10px;
+  }
+
+  .modal-image {
+    width: 200px;
+    margin-left: 60px;
+    padding-bottom: 20px;
+  }
+  .modal-user {
+    margin-left: 95px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .site-links a {
+      font-size: 16px;
+  }
+  .photo-gallery {
+    padding-left: 90px;
+  }
+  .modal-image {
+    width: 400px;
+    margin-left: 30px;
+  }
+  .modal-user {
+    margin-left: 170px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .site-links a {
+      font-size: 20px;
+  }
+  .photo-gallery {
+    padding-left: 25px;
+  }
+  .modal-content {
+    width: 600px;
+  }
+  .modal-image {
+    width: 500px;
+    margin-left: 30px;
+  }
+  .modal-user {
+    margin-left: 220px;
+  }
+}
